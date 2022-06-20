@@ -1,0 +1,12 @@
+npx create-react-app <folder name> or .
+
+npm install -D tailwindcss postcss autoprefixer
+
+
+npx tailwindcss init -p
+
+en tailwindcss
+
+content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
