@@ -42,7 +42,21 @@ export function TemperatureAndDetails(){
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 text-white text-sm py-3">
             <UilSun/>
-            <p></p>
+            <p className="font-light">Rise: <span className="font-medium ml-1"> 6:00 AM</span></p>
+            <p className="font-light">|</p>
+
+            <UilSunset/>
+            <p className="font-light">Set: <span className="font-medium ml-1"> 7:00 PM</span></p>
+            <p className="font-light">|</p>
+
+            <UilSun/>
+            <p className="font-light">High: <span className="font-medium ml-1"> 40°</span></p>
+            <p className="font-light">|</p>
+
+            <UilSun/>
+            <p className="font-light">Low: <span className="font-medium ml-1"> 35°</span></p>
+            <p className="font-light">|</p>
+
         </div>        
 
       </>
