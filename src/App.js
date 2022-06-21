@@ -2,8 +2,8 @@ import './App.css';
 
 import { Inputs } from './components/Inputs';
 import { TopButtons } from './components/TopButtons';
-
-
+import { TimeAndLocation } from './components/TimeAndLocation';
+import { TemperatureAndDetails } from './components/TemperatureAndDetails';
 export function App() {
   return (
     <>
@@ -12,6 +12,9 @@ export function App() {
         <TopButtons/>
         <Inputs/>
 
+
+        <TimeAndLocation/>
+        <TemperatureAndDetails/>
       </div>
     
     </>

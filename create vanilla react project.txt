@@ -10,3 +10,5 @@ en tailwindcss
 content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  
+UniCons
