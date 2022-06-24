@@ -16,7 +16,7 @@ export function TemperatureAndDetails(){
           <p>Time Is</p>
         </div>
         <div className="flex items-center justify-between py-3 text-white">
-          <div className="w-20">Climate Image</div>
+        <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w-12 my-1 " alt=""/>
           <p className="text-5xl">34°</p>
           <div className="flex flex-col space-y-2 ">
             <div className="flex font-light text-sm items-center justify-center">
