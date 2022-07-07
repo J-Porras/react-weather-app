@@ -1,5 +1,6 @@
 # A Simple React Weather App 
-
+## (TO USE THE APP YOU NEED A OPEN WEATHER API KEY )
+Replace the dummy key inside WeatherService.js
 ## Features
 A weather application that displays the current weather and  forecast for the next few days and additional information such as weather speed and actual feeling.
 
